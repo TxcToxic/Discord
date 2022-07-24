@@ -27,7 +27,7 @@ url = f"https://discord.com/api/v9/invites/{inviteID}"
 account = {"authorization": "TOKEN"}
 r = requests.post(url=url, headers=account, json={})
 
-if r.status_code is round(200):
+if r.status_code == 200 or 204:
     print(f"[+] Status Code: {r.status_code} | Account correctly joined!")
 else:
     print(f"[-] Status Code: {r.status_code} | Account won't join | Any error")
