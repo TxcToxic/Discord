@@ -37,8 +37,8 @@ manysend = 0  # !LEAVE THIS!
 while howmany > 0:
     r = requests.post(url=url, headers=account, data={"content": message})
     manysend += 1
-    if r.status_code is round(200):
-        print(f"[+] Status Code {r.status_code} | Message send! | Message: {manysend}")
+    if r.status_code == 200 or 204:
+        print(f"[+] Status Code: {r.status_code} | Message send! | Message: {manysend}")
     else:
-        print(f"[-] Status Code {r.status_code} | Message not send | Any error | Message: {manysend}")
+        print(f"[-] Status Code: {r.status_code} | Message not send | Message: {manysend} | Any error")
     howmany -= 1
