@@ -24,13 +24,13 @@ else:
 
 ### CONFIG ###
 
-webhook = "https://discord.com/api/webhooks/999983636218642443/eXS0rCyg1YCe3dj6lg6r2_uXp1EizoMnJEqsAUOllsWxUyFHwfL0Oxe7vENjjpyjizoo"
+webhook = "https://discord.com/api/webhooks/"
 data = {
     "content": "@everyone you bastards",
     "embeds": [
         {
             "title": "Spamming",
-            "description": "This webhook is getting spammed! | Spam by zUnlegit#0396"
+            "description": "This webhook is getting spammed!"
         }
     ],
     # "avatar_url": "https://cdn.discordapp.com/avatars/",
