@@ -9,6 +9,6 @@
 # Imports:
 ###### *will not show imports like os or time*
 * requests
-* [discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components/tree/developer)
+* [discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components/tree/developer) **|** [Install Instruction](https://github.com/TxcToxic/Discord/blob/main/TemplateBot/readme.md#installing)
 * asyncio
 * pypresence
