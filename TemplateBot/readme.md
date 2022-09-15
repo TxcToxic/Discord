@@ -1,14 +1,14 @@
 # Notes:
 ---
-This is without Cogs and Classes for Cogs and Classes click [here](https://github.com/TxcToxic/Discord/edit/main/TemplateBot2/)
+This is without Cogs and Classes for Cogs and Classes click [here](https://github.com/TxcToxic/Discord/tree/main/TemplateBot2/)
 # *Credits:*
 ---
 discord.py-message-components by [mccuber04#2960](https://github.com/mccoderpy/) (later will be renamed to "discord4py")
-# **Requires:**
+# Requires:
 ---
 * Python 3.5.3 or higher
 * Git
-# **Installing:**
+# Installing:
 ---
 ##### uninstall discord.py libary
 ```
