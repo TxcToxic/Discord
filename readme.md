@@ -12,3 +12,14 @@
 * [discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components/tree/developer) **|** [Install Instructions](https://github.com/TxcToxic/Discord/blob/main/TemplateBot/readme.md#installing)
 * asyncio
 * pypresence
+# Info & Others:
+#### [TemplateBot](https://github.com/TxcToxic/Discord/tree/main/TemplateBot):
+* without Cogs & Classes
+* in 1 file
+#### [TemplateBot2](https://github.com/TxcToxic/Discord/tree/main/TemplateBot2):
+* with Cogs & Classes
+* splittet into more files (Cogs)
+#### [MessageLogger](https://github.com/TxcToxic/Discord/tree/main/MessageLogger):
+* in 1 file
+* will create 2 files
+* logs **all** messages
