@@ -1,3 +1,6 @@
+# Notes:
+---
+This is with Cogs and Classes for no Cogs and Classes click [here](https://github.com/TxcToxic/Discord/main/TemplateBot/)
 # *Credits:*
 ---
 discord.py-message-components by [mccuber04#2960](https://github.com/mccoderpy/) (later will be renamed to "discord4py")
