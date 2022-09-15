@@ -3,7 +3,7 @@
 This is without Cogs and Classes for Cogs and Classes click [here](https://github.com/TxcToxic/Discord/tree/main/TemplateBot2/)
 # *Credits:*
 ---
-discord.py-message-components by [mccuber04#2960](https://github.com/mccoderpy/) (later will be renamed to "discord4py")
+[discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components/tree/developer) by [mccuber04#2960](https://github.com/mccoderpy/) (later will be renamed to "discord4py")
 # Requires:
 ---
 * Python 3.5.3 or higher
