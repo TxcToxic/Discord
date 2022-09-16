@@ -12,10 +12,7 @@ else:
     open("./config.json", "w").write(json.dumps(data, indent=4))
     pass
 
-intents = discord.Intents.default()
-intents.members = True
-intents.guilds = True
-intents.messages = True
+intents = discord.Intents.all()
 client = discord.Client()
 aToken = json.load(open("config.json", "r"))["token"]
 
