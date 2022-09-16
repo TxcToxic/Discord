@@ -47,10 +47,10 @@ class on_message(commands.Cog):
                     }
                     cat = await guild.create_category(name="----- BOT ----", position=0, overwrites=catOverwrites)
                     cchannel = await guild.create_text_channel(name="📄┃bot",
-                                                               topic=f"Channel created by {client.user.name} [BOT]",
+                                                               topic=f"Channel created by {self.bot.user.name} [BOT]",
                                                                overwrites=catOverwrites, category=cat)
                     embed = discord.Embed(title="Hello",
-                                          description=f"This channel got created by the bot: {client.user.name}.\n\n"
+                                          description=f"This channel got created by the bot: {self.bot.user.name}.\n\n"
                                                       f"Bot template by [-TOXIC-#1835](https://github.com/TxcToxic/Discord).\n\n"
                                                       f"Use `$help` for start.",
                                           color=0x00ff00)

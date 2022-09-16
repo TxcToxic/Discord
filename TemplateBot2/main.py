@@ -3,7 +3,6 @@ import traceback
 from os import listdir
 from os.path import isfile, join
 import discord
-import asyncio
 from discord.ext import commands
 logging.basicConfig(level=logging.INFO)
 # This the first version! later will come more https://github.com/TxcToxic/Discord
@@ -22,7 +21,7 @@ class Slash(commands.Bot):
 
 
 client = Slash(command_prefix='$', intents=discord.Intents.all(), sync_commands=True, sync_commands_on_cog_reload=True)
-server = [123456789]    #Your server ID
+server = [12345678910111213]    #Your server ID
 client.remove_command('help')
 
 
