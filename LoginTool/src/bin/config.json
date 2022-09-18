@@ -1,0 +1,7 @@
+{
+    "token": "TOKEN",
+    "email": "E-MAIL-ADDRESS",
+    "password": "PASSWORD",
+    "useToken": 0,
+    "_c": "0 = use email & password | 1 = use token"
+}
