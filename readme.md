@@ -13,6 +13,16 @@
 * asyncio
 * pypresence
 # Info & Others:
+#### [Server Cleaner](https://github.com/TxcToxic/Discord/blob/main/server-cleaner.py)
+* It's a bot, he'll remove channels and categories (except the excepted)
+#### [Joiner](https://github.com/TxcToxic/Discord/blob/main/joiner.py)
+* let the account you want join into the server you want
+#### [RPC](https://github.com/TxcToxic/Discord/blob/main/RPC.py)
+* Discord Rich Presence (RPC)
+#### [Spammer](https://github.com/TxcToxic/Discord/blob/main/spammer.py)
+* will spam messages with the account you want
+#### [Webhook Spammer](https://github.com/TxcToxic/Discord/blob/main/webhook-spammer.py)
+* same as [Spammer](https://github.com/TxcToxic/Discord/blob/main/spammer.py) but with a [Webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
 #### [TemplateBot](https://github.com/TxcToxic/Discord/tree/main/TemplateBot):
 * without Cogs & Classes
 * in 1 file
@@ -22,4 +32,4 @@
 #### [MessageLogger](https://github.com/TxcToxic/Discord/tree/main/MessageLogger):
 * in 1 file
 * will create 2 files
-* logs **all** messages
+* logs **all** messageevents (except `message_sent`)
