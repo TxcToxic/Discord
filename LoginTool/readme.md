@@ -1,6 +1,5 @@
 # Requires:
 * Python 3.7 or higher
-* selenium (import)
 # Installing:
 ```
 # Linux/macOS
