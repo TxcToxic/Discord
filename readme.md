@@ -12,9 +12,26 @@
 * [discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components/tree/developer) **|** [Install Instructions](https://github.com/TxcToxic/Discord/blob/main/TemplateBot/readme.md#installing)
 * asyncio
 * pypresence
+# Discord return codes:
+| Code | Description | 
+| - | - |
+| 200  | The request completed successfully |
+| 201  | The entity was created successfully |
+| 204  | The request completed successfully but returned no content |
+| 304  | No action was taken |
+| 400  | The request was improperly formatted, or the server couldn't understand it |
+| 401  | The Token was missing or invalid |
+| 403  | The Token you passed did not have permission to the resource |
+| 404  | The resource at the location specified doesn't exist |
+| 405  | The HTTP method used is not valid for the location specified |
+| 429  | Too many requests |
+| 502  | There was not a gateway available to process your request. Wait a bit and retry |
+| 5xx  | Server had an error processing your request |
 # Info & Others:
+#### [Mutli Accounting](https://github.com/TxcToxic/Discord/tree/main/MultiAccounting) (*botnet*)
+* The same tools but for more accounts at once
 #### [Server Cleaner](https://github.com/TxcToxic/Discord/blob/main/server-cleaner.py)
-* It's a bot, he'll remove channels and categories (except the excepted)
+* It's a bot, he'll remove channels and categories (except the "excepted")
 #### [Joiner](https://github.com/TxcToxic/Discord/blob/main/joiner.py)
 * let the account you want join into the server you want
 #### [RPC](https://github.com/TxcToxic/Discord/blob/main/RPC.py)
