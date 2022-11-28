@@ -39,11 +39,15 @@ manysend = 0  # !LEAVE THIS!
 print("start spam in 5 seconds...\n")
 time.sleep(5)
 
+urls = []
+
 for url in open("WHU", "r").readlines():
-    # webhookDataPrint()  # In this case it would be shitty :/
-    while howmany > 0:
-        webhook = "{}".format(url.replace('\n', ''))
+    urls.append(url.split("\n")[0])
+
+while howmany > 0:
+    manysend += 1
+    for webhook in urls:
+        # webhookDataPrint()  # In this case it would be shitty :/
         r = requests.post(url=webhook, json=data)
-        manysend += 1
         print(f"[!] Status Code: {r.status_code} | Message: {manysend}")
-        howmany -= 1
+    howmany -= 1
