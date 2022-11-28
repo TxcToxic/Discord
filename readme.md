@@ -12,21 +12,21 @@
 * [discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components/tree/developer) **|** [Install Instructions](https://github.com/TxcToxic/Discord/blob/main/TemplateBot/readme.md#installing)
 * asyncio
 * pypresence
-# Discord return codes:
-| Code | Description | 
-| - | - |
-| 200  | The request completed successfully |
-| 201  | The entity was created successfully |
-| 204  | The request completed successfully but returned no content |
-| 304  | No action was taken |
-| 400  | The request was improperly formatted, or the server couldn't understand it |
-| 401  | The Token was missing or invalid |
-| 403  | The Token you passed did not have permission to the resource |
-| 404  | The resource at the location specified doesn't exist |
-| 405  | The HTTP method used is not valid for the location specified |
-| 429  | Too many requests |
-| 502  | There was not a gateway available to process your request. Wait a bit and retry |
-| 5xx  | Server had an error processing your request |
+# [HTTP Response Codes](https://discord.com/developers/docs/topics/opcodes-and-status-codes#http):
+| Code | Short | Description | 
+| - | - | - |
+| 200 | OK | The request completed successfully |
+| 201 | CREATED | The entity was created successfully |
+| 204 | NO CONTENT | The request completed successfully but returned no content |
+| 304 | NOT MODIFIED | No action was taken |
+| 400 | BAD REQUEST | The request was improperly formatted, or the server couldn't understand it |
+| 401 | UNAUTHORIZED | The Token was missing or invalid |
+| 403 | FORBIDDEN | The Token you passed did not have permission to the resource |
+| 404 | NOT FOUND | The resource at the location specified doesn't exist |
+| 405 | MEHTOD NOT ALLOWED | The HTTP method used is not valid for the location specified |
+| 429 | TOO MANY REQUESTS | Too many requests |
+| 502 | GATEWAY UNAVAILABLE | There was not a gateway available to process your request. Wait a bit and retry |
+| 5xx | SERVER ERROR | Server had an error processing your request |
 # Info & Others:
 #### [Mutli Accounting](https://github.com/TxcToxic/Discord/tree/main/MultiAccounting) (*botnet*)
 * The same tools but for more accounts at once
@@ -50,3 +50,4 @@
 * in 1 file
 * will create 2 files
 * logs **all** messageevents (except `message_sent`)
+###### if you use [discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components/tree/developer) you can only use it for bots
