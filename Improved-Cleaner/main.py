@@ -1,7 +1,5 @@
 import discord
-from asyncio import sleep
 from colorama import Fore, Back, Style
-import random
 import asyncio
 import os
 
@@ -156,8 +154,8 @@ async def on_message(message):
                                     "For manual execution do `!leave` on the guild!", delete_after=15)
         except asyncio.TimeoutError:
             await bot_msg2.delete()
-            await message.author.reply("Bot didn't left!\n\n"
-                                       "For manual execution do `!leave` on the guild!", delete_after=15)
+            await message.author.send("Bot didn't left!\n\n"
+                                      "For manual execution do `!leave` on the guild!", delete_after=15)
     if msg.startswith("!kickall"):
         if not message.guild:
             return await message.reply("This command only works on a guild!", delete_after=10)
